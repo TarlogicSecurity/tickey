@@ -1,3 +1,4 @@
+// By Tarlogic (https://www.tarlogic.com/)
 // Author: Eloy Perez (https://github.com/Zer1t0)
 #define _GNU_SOURCE
 #include <stdlib.h>
@@ -49,7 +50,7 @@ void parse_options(int argc, char * const argv[]) {
 int main(int argc, char * const argv[]){
     parse_options(argc, argv);
     
-    process_using_tty("pts/2");
+    print("Tickey - Copyright 2019 Tarlogic\n");
     
     current_filepath = realpath(argv[0], NULL);
     print_verbose("[*] Current path = %s\n", current_filepath);

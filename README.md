@@ -1,5 +1,5 @@
 # Tickey
-Tool to extract Kerberos tickets from Linux kernel keys. Developed by [@Zer1t0](https://github.com/Zer1t0).
+Tool to extract Kerberos tickets from Linux kernel keys.
 
 Based in the paper [Kerberos Credential Thievery (GNU/Linux)](https://www.delaat.net/rp/2016-2017/p97/report.pdf).
 
@@ -42,6 +42,9 @@ This program is free software: you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
 
 You should have received a copy of the GNU Affero General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+## Author
+Eloy Pérez González [@Zer1t0](https://github.com/Zer1t0)
 
 ## Acknowledgment
 

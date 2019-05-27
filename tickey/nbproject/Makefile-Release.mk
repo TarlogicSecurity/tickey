@@ -21,7 +21,7 @@ FC=gfortran
 AS=as
 
 # Macros
-CND_PLATFORM=GNU-Linux
+CND_PLATFORM=GNU-Linux-x86
 CND_DLIB_EXT=so
 CND_CONF=Release
 CND_DISTDIR=dist
@@ -72,57 +72,57 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/tickey: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/tickey ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/keyctl.o: keyctl.c
+${OBJECTDIR}/keyctl.o: keyctl.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -Wall -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/keyctl.o keyctl.c
 
-${OBJECTDIR}/keyrings.o: keyrings.c
+${OBJECTDIR}/keyrings.o: keyrings.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -Wall -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/keyrings.o keyrings.c
 
-${OBJECTDIR}/krb_conf.o: krb_conf.c
+${OBJECTDIR}/krb_conf.o: krb_conf.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -Wall -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/krb_conf.o krb_conf.c
 
-${OBJECTDIR}/main.o: main.c
+${OBJECTDIR}/main.o: main.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -Wall -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.c
 
-${OBJECTDIR}/proc_info/proc_info.o: proc_info/proc_info.c
+${OBJECTDIR}/proc_info/proc_info.o: proc_info/proc_info.c 
 	${MKDIR} -p ${OBJECTDIR}/proc_info
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -Wall -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/proc_info/proc_info.o proc_info/proc_info.c
 
-${OBJECTDIR}/string_utils.o: string_utils.c
+${OBJECTDIR}/string_utils.o: string_utils.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -Wall -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/string_utils.o string_utils.c
 
-${OBJECTDIR}/tickets.o: tickets.c
+${OBJECTDIR}/tickets.o: tickets.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -Wall -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/tickets.o tickets.c
 
-${OBJECTDIR}/traceter/p_trace.o: traceter/p_trace.c
+${OBJECTDIR}/traceter/p_trace.o: traceter/p_trace.c 
 	${MKDIR} -p ${OBJECTDIR}/traceter
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -Wall -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/traceter/p_trace.o traceter/p_trace.c
 
-${OBJECTDIR}/traceter/traceter.o: traceter/traceter.c
+${OBJECTDIR}/traceter/traceter.o: traceter/traceter.c 
 	${MKDIR} -p ${OBJECTDIR}/traceter
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -Wall -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/traceter/traceter.o traceter/traceter.c
 
-${OBJECTDIR}/traceter/utils.o: traceter/utils.c
+${OBJECTDIR}/traceter/utils.o: traceter/utils.c 
 	${MKDIR} -p ${OBJECTDIR}/traceter
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -Wall -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/traceter/utils.o traceter/utils.c
 
-${OBJECTDIR}/user_session.o: user_session.c
+${OBJECTDIR}/user_session.o: user_session.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -Wall -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/user_session.o user_session.c
@@ -133,6 +133,7 @@ ${OBJECTDIR}/user_session.o: user_session.c
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/tickey
 
 # Subprojects
 .clean-subprojects:
