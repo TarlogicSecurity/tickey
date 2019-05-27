@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="proc_info" displayName="proc_info" projectFiles="true">
+        <itemPath>proc_info/proc_info.c</itemPath>
+        <itemPath>proc_info/proc_info.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="traceter" displayName="traceter" projectFiles="true">
+        <itemPath>traceter/p_trace.c</itemPath>
+        <itemPath>traceter/p_trace.h</itemPath>
+        <itemPath>traceter/traceter.c</itemPath>
+        <itemPath>traceter/traceter.h</itemPath>
+        <itemPath>traceter/utils.c</itemPath>
+        <itemPath>traceter/utils.h</itemPath>
+      </logicalFolder>
+      <itemPath>keyctl.c</itemPath>
+      <itemPath>keyctl.h</itemPath>
+      <itemPath>keyrings.c</itemPath>
+      <itemPath>keyrings.h</itemPath>
+      <itemPath>krb_conf.c</itemPath>
+      <itemPath>krb_conf.h</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>string_utils.c</itemPath>
+      <itemPath>string_utils.h</itemPath>
+      <itemPath>tickets.c</itemPath>
+      <itemPath>tickets.h</itemPath>
+      <itemPath>user_session.c</itemPath>
+      <itemPath>user_session.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="keyctl.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="keyctl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="keyrings.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="keyrings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="krb_conf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="krb_conf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="proc_info/proc_info.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="proc_info/proc_info.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="string_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="string_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tickets.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tickets.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="traceter/p_trace.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="traceter/p_trace.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="traceter/traceter.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="traceter/traceter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="traceter/utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="traceter/utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="user_session.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="user_session.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="keyctl.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="keyctl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="keyrings.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="keyrings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="krb_conf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="krb_conf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="proc_info/proc_info.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="proc_info/proc_info.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="string_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="string_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tickets.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tickets.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="traceter/p_trace.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="traceter/p_trace.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="traceter/traceter.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="traceter/traceter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="traceter/utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="traceter/utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="user_session.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="user_session.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
