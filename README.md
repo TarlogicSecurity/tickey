@@ -44,7 +44,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU Affero General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 ## Author
-Eloy Pérez González [@Zer1t0](https://github.com/Zer1t0)
+Eloy Pérez González [@Zer1t0](https://github.com/Zer1t0) at [@Tarlogic](https://twitter.com/Tarlogic) - https://www.tarlogic.com/en/
 
 ## Acknowledgment
 
